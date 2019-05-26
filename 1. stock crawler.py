@@ -12,6 +12,7 @@ def getData():
     # alphabet = ["A"]
     for alpha in alphabet:
         print(alpha + " in progress...")
+        #Chromedriver downloaded from link: https://chromedriver.storage.googleapis.com/index.html?path=2.46/
         driver = webdriver.Chrome(
             executable_path=r"C:\Users\Kai Xuan\Desktop\Software\Chromedriver\chromedriver.exe")
         driver.get("https://www.thestar.com.my/business/marketwatch/stock-list/?alphabet=" + alpha)
@@ -91,7 +92,7 @@ class AppCrawler:
 
         return
 
-
+#data crawled is stored in mysql below
 def storeData(data):
     databaseName = "stockdatabase_trial"
     tableName = "StockPrice"
