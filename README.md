@@ -5,6 +5,9 @@ For the dataset,there are several steps need to be follow:
 3. Run "1. Get Stock List.py"
 4. Run "2. Get News Headline.py"
 5. Run "3. FinancialReport.py". 
+
 This script require Chromer Driver.
 Chromer Driver can be downloaded from: https://chromedriver.storage.googleapis.com/index.html?path=2.46/
 Change the Chrome Driver path at line 31 to match the path in your PC
+
+Before running the code, mySQL has to be started to load the data crawled from the websites.
