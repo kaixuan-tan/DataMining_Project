@@ -29,3 +29,4 @@ stocknewsheadline.csv
 
 Milestone 5&6:
 WQD180036_SAS Enterprise Miner
+WQD180036_Milestone6.pdf
